@@ -35,6 +35,28 @@
             gap: 15px;
         }
 
+        /*estilo para el boton de entregar*/
+        button {
+            background: #276187;
+            color: white;
+            padding: 10px 15px; 
+            border: none;
+            border-radius: 7px;
+            font-size: 15px; 
+            
+           
+        }
+        /*contenedor entre los botones eliminar y editar */
+        .button-container {
+            display: flex;
+            gap: 10px; 
+        }
+        
+      /* efecto hover para el boton de entregar */
+        button:hover {
+            background: #163747;
+        }
+
         .task-list {
             margin-top: 20px;
             padding: 0;

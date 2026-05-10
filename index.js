@@ -34,7 +34,7 @@ function createTaskElement(task) {
     divTaskContent.appendChild(pDescription); // Agrega la descripción al contenedor de la tarea
 
     const divTaskActions = document.createElement('div'); // Crea un contenedor para las acciones de la tarea
-    divTaskActions.classList.add('task-actions'); // Agrega una clase para estilos
+    divTaskActions.classList.add('button-container'); // Agrega una clase para estilos
 
     const li = document.createElement('li'); // Crea un elemento de lista
     li.classList.add('task-item'); // Agrega una clase para estilos
