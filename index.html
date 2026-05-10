@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+
+
+     <!--contenedor principal agrupacion con el div-->
     <div class="main-container">
         <h2>Jonathan Nicoya</h2>
     <form onsubmit="handleFormSubmit(event)">
         <input  required type="text" placeholder="Título" name="title">
         <textarea placeholder="Agregue la descripción de la tarea." name="description"></textarea>
         <button type="submit">Entregar</button>
-    </form>
 
+    </form>
+<!-- contenedor de la lista de tareas -->
     <ul id="task-list-container" class="task-list"></ul>
     
     </div>

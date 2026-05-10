@@ -8,16 +8,18 @@
             box-sizing: border-box;
         }
 
-        /* estilo para el cuerpo de la pajina */
+        /*estilo para el cuerpo de la pajina de al fondo */
         body {
             margin: 0;
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: radial-gradient(circle at top, #e8f2ff 0%, #768396 40%, #f9fbff 100%);
+            background: radial-gradient(circle at top, #2e496c 0%, #2a5e6b 40%, #24468d 100%);
         }
+        
 
+        
         /* estilo para el contenedor principal */
         .main-container {
             width: 400px;

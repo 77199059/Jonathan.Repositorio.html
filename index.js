@@ -70,4 +70,3 @@ function createTaskElement(task) {
 
     return li; // Devuelve el elemento de lista completo para ser agregado al DOM
 }
-
